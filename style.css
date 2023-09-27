@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins ,sans-serif;
+    box-sizing: border-box;
+}
+/* code for body  */
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(220deg , #f8cd76,#bab8b8);
+}
+/* style for the container */
+.container{
+    width: 500px;
+    border: 0.5px solid #b3aaaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 5px 5px 10px #bdb7b7, -5px -5px 10px #bdb7b7,
+     inset 1px 1px 5px #727070;
+}
+/* style for the container heading */
+.container h2{
+    font-size: 30px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #c97507;
+}
+/* style for the row div inside the container which contains the input and button */
+.container .row{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background: #f3f1f1;
+
+}
+/* style for the input box to take input */
+.row input{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background: #f3f1f1;
+   border-radius: 30px;
+    flex: 1;
+    font-size: 16px;
+}
+/* style for the button for take input */
+.row button{
+    font-size: 20px;
+    background-color: #c97507;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+/* style for the ul list of the which stores the list item */
+.container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0px;
+    justify-content: center;
+}
+/* style for the item  */
+.container ul li{
+    width: 430px;
+    display: flex;
+    list-style: none;
+}
+/* style for the inside the li */
+.container ul li .task{
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+/* style for the span element for the text of li */
+.container ul li span{
+    color: #c1220a;
+    font-size: 20px;
+    margin: 0px 20px 0px 10px;
+
+}
+/* style for the completed button inside li */
+.container ul li .task .comp{
+    background-color: #055705;
+    color: #d6cdcd;
+    border: 1px solid #212121;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px 10px;   
+    cursor: pointer;
+}
+/* style for the del button inside the li */
+.container ul li .task .del{
+    background-color: #ef1a1a;
+    color: #d6cdcd;
+    border: 1px solid #212121;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px 10px;   
+    cursor: pointer;
+}
